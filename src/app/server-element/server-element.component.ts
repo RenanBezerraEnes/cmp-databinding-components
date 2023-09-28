@@ -5,17 +5,11 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './server-element.component.html',
   styleUrls: ['./server-element.component.css']
 })
-export class ServerElementComponent implements OnInit {
+export class ServerElementComponent {
   @Input('srvElement') element: {
     type: string,
     name: string,
     content: string
   };
-
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
