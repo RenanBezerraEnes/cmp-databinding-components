@@ -14,7 +14,7 @@ export class CockpitComponent {
   serverCreated = new EventEmitter<{serverName: string, serverContent: string}>();
 
 
-  @Output() 
+  @Output('bpCreated') 
   bluePrintCreated = new EventEmitter<{serverName: string, serverContent: string}>();
 
   
